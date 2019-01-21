@@ -7,8 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+@import MetalKit;
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, MTKViewDelegate>
 
 
 @end
